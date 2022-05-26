@@ -1,0 +1,430 @@
+* {
+    margin: 0; 
+    padding: 0;
+   
+}
+h2{
+    font-family:'Cinzel', serif; 
+}
+h4{
+    font-family: 'PT Sans', sans-serif;
+}
+/*navigationsbar for laptop*/
+.menuknap {
+    font-family:  'Cinzel', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:#16463f;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px;
+}
+.menuknap:hover{
+    background-color:#e7e1d5;
+}
+.menu{
+    display: flex;
+    border-top: solid;
+    border-width: 1px;
+    justify-content: center;
+    gap: 20px;
+}
+/*navigation for mobile*/
+.burgercontainer{ /*burgerknappen*/
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    background-color: #eac1c6;
+}
+.mobilebody{/*farven på mobilesiden*/
+    background-color:#e7e1d5;
+}
+/*mobile siden*/
+.mobilemenu{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.burgeritem{
+    height: 50px;
+    font-family:  'Cinzel', serif;
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    
+}
+/*//////////forsiden////////////*/
+.headerdp{
+    width: 100%;
+    height: auto;
+}
+/*////intro tekst////*/
+.pilsnercontainer{
+    display: flex;
+
+}
+.pilsner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    color: #16463f;
+}
+/*//////højre side med logo og knap////*/
+.findollen{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    background-image: url(images/kort.png);
+    background-repeat: no-repeat;
+    background-size: 8cm;
+    background-position: center;
+    padding-bottom: 30px;
+   
+}
+.gronknap{
+    background-color: #16463f;
+    height: 38px;
+    width: 270px;
+    margin-top: 270px;
+    font-family:'Cinzel', serif;
+    font-size: 20px;
+    color:#eac1c6;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 14px;
+    text-decoration: none;
+   
+}
+.gronknap:hover{
+    background-color: #24796c;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*///////de 2 billederne/////*/ 
+.servering{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+   
+.olbillede > img{
+    width: 100%;
+    height: auto;     
+}
+/*/////////////spillene/////////////*/
+.spil{ /*container*/
+    display: flex; 
+    
+}
+.drukspil{ /*container-item*/
+    margin:40px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.drukspil > img{
+    width: 100%;
+    max-width: 320px;
+    height: auto; 
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.spiltext{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    color: #16463f;
+}
+.lyserod{
+    background-color:#eac1c6;
+    height: 38px;
+    width: 250px;
+    margin-top: 20px;
+    font-family:'Cinzel', serif;
+    font-size: 20px;
+    color:#16463f;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 14px;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+}
+.lyserod:hover{
+    background-color:#ebd5d8;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*///////////Om øllen og ingredienser//////////*/
+.historiacontiner{
+    background-color: #e7e1d5;
+    display: flex;
+    align-items: center;
+    padding:20px;
+    
+    gap: 20px;
+    margin: 20px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.historiacontiner > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+.historiacontiner > div > h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(7, 0, 0);
+    margin-bottom: 10px;
+}
+.historiacontiner > div > h4{
+    text-align: center;
+}
+
+.historiacontiner > div > img{
+    max-height: 380px;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex:1
+}
+/*///////////kontakt///////////*/
+
+.kontakt{ /*container*/
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+.blomme{ /*container-item*/
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blomme > img{ /*bagrundsbilleder*/
+    width: 100%;
+    height: auto; 
+    text-align: center; 
+    
+}
+.kontakttekst {
+    position: absolute;
+    color: #16463f;
+}
+.kontakttekst > h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #16463f ;
+    margin-bottom: 10px;
+
+}
+.kontakttekst > h4{
+    line-height: 50px;
+}
+.rosaknap{ /*knap til harboes hjemmeside*/
+    background-color:#eac1c6;
+    font-family:'Cinzel', serif;
+    font-size: 20px;
+    color:#16463f;
+    border-radius: 30px;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    
+}
+.rosaknap:hover{
+    background-color:#ebd5d8;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*///////////find produkt///////*/
+.sog{ /*container*/
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    justify-content: space-between;
+    background-color: #eac1c6;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.sogmobile{
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    justify-content: space-between;
+    background-color: #eac1c6;
+}
+.blomme2{ /*container-item*/
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.sogtekst{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    flex-direction: column;
+    text-align: center;
+}
+.sogtekst > h4{
+    margin-top: 50px;
+}
+.blomme2 > img{
+    width: 100%;
+    height: auto;  
+    
+}
+.lokationchild{ /* mobile = width 200px. laptop = width 300px*/
+    background-color: #fcfcfc;
+    padding: 10px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.137);
+    margin-bottom: 10px;
+}
+
+button {
+    background-color:#e7e1d5; 
+    padding: 5px;
+    border-radius: 15px;
+    width: 60px;
+    border-style: none;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+button:hover {
+    background-color:#f1efea;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*//søgresultater//*/
+.resultatcontainer{
+    
+    display: flex;
+    flex-direction: column; 
+    padding: 40px; 
+    gap: 20px
+}
+.resultat{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.resultat > div > iframe{
+    width: auto; 
+    
+}
+/*///////////footer////////////*/
+footer{
+    background-color: #16463f;
+    color:white;
+}
+footer > div{
+     display: flex;
+     justify-content: space-around;
+     height: 200px;
+}
+
+.hojre{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hojre > h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.venstre{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-end;
+}
+
+/*mobil*/
+@media only screen and (max-width: 768px){
+.menu{
+    display: none;
+}
+.servering{
+    flex-direction: column;
+}
+.pilsnercontainer{
+    flex-direction: column;
+    align-items: center;
+}
+.spil{
+    flex-direction: column;
+}
+
+footer > div{
+    flex-direction: column;
+    align-items: center;
+}
+.historiacontiner{
+    flex-direction: column;
+}
+.kontakt{
+    flex-direction: column;
+}
+.blomme2{
+    display: none;
+}
+.lokationchild{
+    width:200px;
+}
+.resultatcontainer{
+    flex-direction: column;
+}
+.resultat{
+    flex-direction: column;
+    align-items: center;
+}
+/*//søgboxen på find produktsiden//*/
+.lokation{ 
+display: flex;
+justify-content: center;
+gap:10px;
+margin-top: 80px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 20px;
+}
+}
+
+/*laptop*/
+@media only screen and (min-width: 768px){
+.burgercontainer{
+    display: none;
+}
+.historiacontiner > div > h4{
+    padding:40px;
+}
+.spiltext{
+    width: 300px;
+}
+.lokation {
+    display: flex;
+    margin-top: 150px;
+    gap: 10px;
+    justify-content: center;
+   
+}
+.lokationchild{
+    width:300px;}
+}
