@@ -203,7 +203,6 @@ h4{
 
 .kontakt{ /*container*/
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%; 
 }
@@ -379,6 +378,7 @@ footer > div{
     flex-direction: column;
     align-items: center;
 }
+/*om øllen*/
 .historiacontiner{
     flex-direction: column;
 }
